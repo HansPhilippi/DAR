@@ -1,0 +1,136 @@
+3557 queries (133 unique) parsed in 15.99882 seconds
+133 most frequent queries
+124 times: SELECT * FROM autompg WHERE model_year = '82' AND type = 'sedan'
+120 times: SELECT * FROM autompg WHERE model_year = '81'
+100 times: SELECT * FROM autompg WHERE mpg = '28' AND cylinders = '4' AND horsepower = '110' AND acceleration = '13.50' AND brand = 'volkswagen'
+95 times: SELECT displacement FROM autompg WHERE mpg = '23' AND cylinders = '4' AND horsepower = '60' AND brand = 'mercedes-benz' AND type = 'sedan'
+83 times: SELECT type FROM autompg WHERE mpg = '26' AND displacement = '210' AND model_year = '82'
+81 times: SELECT horsepower, acceleration FROM autompg WHERE displacement = '115' AND brand = 'renault'
+81 times: SELECT * FROM autompg WHERE brand = 'audi'
+80 times: SELECT displacement FROM autompg WHERE mpg = '32' AND brand = 'opel'
+80 times: SELECT mpg, cylinders FROM autompg WHERE mpg = '20'
+80 times: SELECT type FROM autompg WHERE mpg = '22' AND displacement = '175'
+79 times: SELECT * FROM autompg WHERE displacement = '165'
+74 times: SELECT * FROM autompg WHERE model_year = '80'
+71 times: SELECT * FROM autompg WHERE acceleration = '16.00'
+70 times: SELECT model_year, brand FROM autompg WHERE acceleration = '17.00' AND brand = 'triumph'
+70 times: SELECT acceleration FROM autompg WHERE mpg = '32' AND cylinders = '6' AND brand = 'fiat'
+69 times: SELECT * FROM autompg WHERE acceleration = '14.00'
+68 times: SELECT * FROM autompg WHERE mpg = '15' AND displacement = '107' AND horsepower = '120' AND brand = 'bmw' AND type = 'station wagon'
+65 times: SELECT displacement FROM autompg WHERE type = 'station wagon'
+65 times: SELECT * FROM autompg WHERE brand IN ('audi','bmw','mercedes-benz','volkswagen')
+63 times: SELECT horsepower FROM autompg WHERE acceleration = '16.50' AND model_year = '81' AND type = 'hatchback'
+61 times: SELECT horsepower, acceleration FROM autompg WHERE horsepower = '75'
+61 times: SELECT displacement FROM autompg WHERE displacement = '155' AND model_year = '81'
+55 times: SELECT brand FROM autompg WHERE brand IN ('amc','chrysler')
+54 times: SELECT acceleration FROM autompg WHERE horsepower = '50' AND brand = 'toyota'
+54 times: SELECT COUNT(brand) FROM autompg WHERE cylinders = '6' AND brand = 'saab'
+54 times: SELECT horsepower, acceleration FROM autompg WHERE displacement = '165' AND brand = 'volvo'
+53 times: SELECT * FROM autompg WHERE displacement = '155'
+52 times: SELECT DISTINCT mpg FROM autompg WHERE brand = 'saab'
+51 times: SELECT COUNT(*) FROM autompg WHERE brand IN ('ford','mercury')
+50 times: SELECT mpg, type FROM autompg WHERE horsepower = '90' AND type IN ('station wagon','sedan')
+50 times: SELECT * FROM autompg WHERE mpg = '18' AND displacement = '165' AND horsepower = '100'
+49 times: SELECT mpg, type FROM autompg WHERE brand IN ('datsun','nissan')
+45 times: SELECT * FROM autompg WHERE acceleration = '13.00' AND brand = 'datsun'
+43 times: SELECT * FROM autompg WHERE cylinders = '8' AND brand IN ('nissan','honda','subaru','toyota','mazda')
+41 times: SELECT COUNT(*) FROM autompg WHERE displacement = '95.5'
+40 times: SELECT * FROM autompg WHERE acceleration = '14.50' AND brand = 'peugeot'
+39 times: SELECT COUNT(*) FROM autompg WHERE displacement = '279'
+39 times: SELECT displacement FROM autompg WHERE brand = 'nissan'
+37 times: SELECT cylinders, displacement, model_year FROM autompg WHERE brand = 'peugeot'
+34 times: SELECT * FROM autompg WHERE brand IN ('nissan','honda','subaru','toyota','mazda') AND type = 'hatchback'
+34 times: SELECT * FROM autompg WHERE horsepower = '130' AND brand = 'volvo'
+31 times: SELECT * FROM autompg WHERE mpg = '13' AND displacement = '155' AND horsepower = '150' AND brand IN ('audi','bmw','mercedes-benz','volkswagen')
+31 times: SELECT * FROM autompg WHERE mpg = '12' AND cylinders = '6' AND displacement = '279' AND horsepower = '90' AND brand = 'nissan'
+31 times: SELECT mpg, displacement, type FROM autompg WHERE brand IN ('opel','saab','renault','volvo','fiat','peugeot')
+31 times: SELECT * FROM autompg WHERE brand = 'subaru'
+30 times: SELECT * FROM autompg WHERE brand = 'bmw'
+29 times: SELECT * FROM autompg WHERE horsepower = '120' AND brand = 'mazda'
+28 times: SELECT * FROM autompg WHERE brand = 'fiat'
+27 times: SELECT * FROM autompg WHERE displacement = '279' AND horsepower = '100' AND brand = 'subaru' AND type = 'coupe'
+24 times: SELECT mpg, cylinders FROM autompg WHERE mpg = '28' AND brand = 'toyota'
+24 times: SELECT * FROM autompg WHERE mpg = '13' AND brand = 'honda' AND type = 'hatchback'
+23 times: SELECT horsepower, acceleration FROM autompg WHERE model_year = '79'
+22 times: SELECT * FROM autompg WHERE brand = 'volkswagen'
+22 times: SELECT displacement FROM autompg WHERE brand = 'mercedes-benz'
+21 times: SELECT DISTINCT horsepower, acceleration FROM autompg WHERE mpg = '26' AND cylinders = '3' AND horsepower = '50' AND acceleration = '11.00' AND brand = 'buick'
+21 times: SELECT DISTINCT type FROM autompg WHERE displacement = '210' AND model_year = '77' AND type IN ('station wagon','sedan')
+21 times: SELECT mpg, cylinders FROM autompg WHERE cylinders = '8'
+20 times: SELECT * FROM autompg WHERE mpg = '18' AND displacement = '279' AND horsepower = '90' AND model_year = '80'
+20 times: SELECT * FROM autompg WHERE model_year = '78' AND type = 'sedan'
+20 times: SELECT * FROM autompg WHERE mpg = '23' AND cylinders = '4' AND model_year = '80'
+19 times: SELECT * FROM autompg WHERE model_year = '76' AND type = 'convertible'
+19 times: SELECT mpg, displacement, type FROM autompg WHERE brand = 'opel'
+18 times: SELECT COUNT(brand) FROM autompg WHERE acceleration = '11.00'
+18 times: SELECT mpg, displacement, type FROM autompg WHERE brand = 'renault'
+16 times: SELECT displacement FROM autompg WHERE cylinders = '6' AND brand IN ('amc','chrysler')
+14 times: SELECT * FROM autompg WHERE cylinders = '8' AND displacement = '115' AND brand = 'mercury'
+14 times: SELECT horsepower, acceleration FROM autompg WHERE model_year = '82'
+13 times: SELECT COUNT(*) FROM autompg WHERE cylinders = '8' AND brand IN ('opel','saab','renault','volvo','fiat','peugeot')
+13 times: SELECT cylinders, displacement, model_year FROM autompg WHERE brand = 'peugeot' AND type IN ('station wagon','pickup')
+13 times: SELECT DISTINCT * FROM autompg WHERE cylinders = '4' AND horsepower = '100' AND brand = 'oldsmobile'
+12 times: SELECT brand, type FROM autompg WHERE cylinders = '5' AND horsepower = '100' AND model_year = '79' AND brand = 'plymouth' AND type = 'convertible'
+12 times: SELECT horsepower FROM autompg WHERE brand IN ('ford','mercury','amc','chrysler','pontiac','mazda','dodge','plymouth','buick') AND type = 'coupe'
+12 times: SELECT * FROM autompg WHERE horsepower = '140' AND brand IN ('chrysler','ford','chevrolet','amc')
+11 times: SELECT * FROM autompg WHERE displacement = '107' AND brand = 'cadillac'
+11 times: SELECT cylinders, displacement, model_year FROM autompg WHERE displacement = '85'
+11 times: SELECT horsepower, acceleration FROM autompg WHERE horsepower = '110'
+10 times: SELECT COUNT(brand, type) FROM autompg WHERE cylinders = '5' AND brand = 'amc'
+10 times: SELECT * FROM autompg WHERE mpg = '26' AND cylinders = '3' AND displacement = '107' AND horsepower = '50' AND acceleration = '11.00' AND brand = 'pontiac' AND type = 'station wagon'
+10 times: SELECT * FROM autompg WHERE model_year = '77' AND brand = 'chevrolet' AND type = 'pickup'
+10 times: SELECT * FROM autompg WHERE cylinders = '7' AND displacement = '115' AND brand IN ('triumph','oldsmobile') AND type = 'sedan'
+10 times: SELECT type FROM autompg WHERE brand IN ('ford','mercury')
+10 times: SELECT * FROM autompg WHERE brand IN ('ford','mercury','amc','chrysler','pontiac','mazda','dodge','plymouth','buick')
+9 times: SELECT * FROM autompg WHERE displacement = '107' AND horsepower = '100' AND acceleration = '11.00'
+9 times: SELECT cylinders, displacement, model_year FROM autompg WHERE cylinders = '6' AND model_year = '78'
+8 times: SELECT * FROM autompg WHERE mpg = '28' AND cylinders = '4' AND brand = 'audi' AND type = 'pickup'
+7 times: SELECT * FROM autompg WHERE displacement = '75' AND model_year = '74' AND type IN ('station wagon','pickup')
+7 times: SELECT displacement FROM autompg WHERE brand = 'mazda' AND type IN ('convertible','coupe')
+7 times: SELECT * FROM autompg WHERE displacement = '60'
+7 times: SELECT mpg FROM autompg WHERE brand = 'honda'
+6 times: SELECT mpg, cylinders FROM autompg WHERE mpg = '26' AND horsepower = '100' AND model_year = '75' AND brand = 'chrysler' AND type = 'sedan'
+6 times: SELECT cylinders, displacement, model_year FROM autompg WHERE displacement = '115' AND brand = 'mazda'
+6 times: SELECT * FROM autompg WHERE brand = 'chevrolet'
+5 times: SELECT type FROM autompg WHERE cylinders = '9' AND brand = 'mercury'
+5 times: SELECT horsepower FROM autompg WHERE displacement = '175' AND acceleration = '21.00' AND brand = 'oldsmobile' AND type IN ('convertible','coupe')
+5 times: SELECT horsepower, acceleration FROM autompg WHERE brand = 'buick'
+5 times: SELECT * FROM autompg WHERE horsepower = '250' AND model_year = '72' AND brand = 'peugeot'
+4 times: SELECT * FROM autompg WHERE brand = 'amc'
+4 times: SELECT mpg, displacement, type FROM autompg WHERE type = 'convertible'
+4 times: SELECT acceleration FROM autompg WHERE mpg = '8' AND cylinders = '4' AND displacement = '75' AND horsepower = '75' AND brand = 'saab'
+4 times: SELECT * FROM autompg WHERE displacement = '435' AND horsepower = '110'
+4 times: SELECT * FROM autompg WHERE horsepower = '100' AND brand = 'ford'
+4 times: SELECT mpg FROM autompg WHERE brand = 'cadillac'
+4 times: SELECT DISTINCT acceleration FROM autompg WHERE brand = 'dodge'
+4 times: SELECT horsepower, acceleration FROM autompg WHERE brand = 'oldsmobile'
+4 times: SELECT mpg FROM autompg WHERE acceleration = '30.00'
+3 times: SELECT acceleration FROM autompg WHERE type = 'pickup'
+3 times: SELECT COUNT(brand, type) FROM autompg WHERE mpg = '5' AND model_year = '73'
+3 times: SELECT * FROM autompg WHERE mpg = '8'
+3 times: SELECT * FROM autompg WHERE brand = 'mazda'
+3 times: SELECT * FROM autompg WHERE cylinders = '9' AND horsepower = '194' AND brand = 'buick'
+3 times: SELECT * FROM autompg WHERE brand IN ('nissan','honda','subaru','toyota','mazda')
+3 times: SELECT * FROM autompg WHERE brand IN ('chrysler','ford','chevrolet','amc')
+3 times: SELECT DISTINCT brand FROM autompg WHERE model_year = '71' AND brand = 'plymouth'
+3 times: SELECT cylinders, displacement, model_year FROM autompg WHERE brand = 'toyota'
+2 times: SELECT DISTINCT displacement FROM autompg WHERE cylinders = '8' AND displacement = '415' AND model_year = '70' AND brand = 'volkswagen'
+2 times: SELECT DISTINCT acceleration FROM autompg WHERE cylinders = '8' AND displacement = '500' AND brand = 'cadillac' AND type = 'station wagon'
+2 times: SELECT horsepower FROM autompg WHERE model_year = '75'
+2 times: SELECT brand FROM autompg WHERE mpg = '5'
+2 times: SELECT brand FROM autompg WHERE acceleration = '19.00'
+2 times: SELECT * FROM autompg WHERE cylinders = '5' AND displacement = '85' AND horsepower = '75' AND brand IN ('ford','mercury')
+2 times: SELECT COUNT(*) FROM autompg WHERE acceleration = '22.50' AND brand IN ('triumph','oldsmobile')
+1 times: SELECT * FROM autompg WHERE brand = 'chrysler'
+1 times: SELECT mpg, type FROM autompg WHERE brand = 'datsun'
+1 times: SELECT mpg, cylinders FROM autompg WHERE displacement = '500'
+1 times: SELECT * FROM autompg WHERE cylinders = '9' AND acceleration = '13.50' AND type IN ('station wagon','sedan')
+1 times: SELECT acceleration FROM autompg WHERE cylinders = '7' AND acceleration = '27.00' AND type IN ('convertible','coupe')
+1 times: SELECT brand, type FROM autompg WHERE cylinders = '8' AND brand = 'renault'
+1 times: SELECT horsepower, acceleration FROM autompg WHERE model_year = '73'
+1 times: SELECT * FROM autompg WHERE mpg = '8' AND cylinders = '8' AND displacement = '435' AND horsepower = '240' AND type = 'coupe'
+1 times: SELECT displacement FROM autompg WHERE mpg = '8' AND cylinders = '7' AND displacement = '425' AND horsepower = '250' AND brand = 'dodge'
+1 times: SELECT displacement FROM autompg WHERE mpg = '8' AND cylinders = '7' AND horsepower = '250'
+1 times: SELECT * FROM autompg WHERE displacement = '385'
+1 times: SELECT horsepower, acceleration FROM autompg WHERE brand = 'mercury'
+
